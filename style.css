@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenaire{
+    margin: 50px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card_contenaire{
+    width: 320px;
+    height:430px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 40px;
+    background-color: rgb(17, 17, 20);
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+
+}
+
+.navbar-brand{
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar-brand span{
+    color: orangered;
+}
+
+.card_contenaire img{
+    width: 310px;
+    border-radius: 10px;
+    height: 300px;
+    justify-content: center;
+}
+
+#btn-search{
+    background-color:rgb(17, 17, 20) ;
+    color: white;
+}
+
+#recherche{
+  width: 250px;
+  border-radius:10px;
+}
+

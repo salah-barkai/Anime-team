@@ -58,4 +58,67 @@ body{
   width: 250px;
   border-radius:10px;
 }
+.foot{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 5;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px;
+    width: auto;
+    color: white;
+}
+
+.foot p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .contenaire {
+        margin: 50px;
+        padding: 10px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -3px;
+
+    }
+
+    .card_contenaire {
+        width: 320px;
+        height:430px;
+        padding: 5px;
+        border-radius: 10px;
+        margin: 40px;
+        background-color: rgb(17, 17, 20);
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .foot{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 5;
+        border: 1px solid skyblue;
+        border-radius: 10px;
+        background-color: black;
+        margin: 10px;
+        width: auto;
+    }
+    .foot p{
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+    }
+}
 
